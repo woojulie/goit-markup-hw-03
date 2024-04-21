@@ -194,12 +194,11 @@ body {
 .team {
     display: flex;
     margin-top: 72px;
+    gap: 24px;
 }
-.team-container {
-    max-width: 1440px;
-}
+
 .team-item {
-     /* column-gap: 24px; */
+    /* column-gap: 24px; */
     /* display: block; */
     /* width: calc((100% - 72px) / 4); */
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -257,7 +256,9 @@ body {
 
 .portfolio-list {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 72px;
+    column-gap: 24px;
 }
 .portfolio-title {
     font-family: "Roboto", sans-serif;
@@ -272,6 +273,7 @@ body {
 }
 .portfolio-list-item {
     border-bottom: 1px solid #e7e9fc;
+    margin-bottom: 48px;
 }
 .portfolio-text {
     font-family: "Roboto", sans-serif;
