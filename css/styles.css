@@ -280,6 +280,7 @@ body {
 .portfolio-container {
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px;
 }
 .portfolio-list-item {
     margin-bottom: 48px;
